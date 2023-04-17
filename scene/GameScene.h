@@ -19,6 +19,8 @@ public: // メンバ関数
 	/// コンストクラタ
 	/// </summary>
 	GameScene();
+	uint32_t textureHandle_ = 0;
+	Sprite* sprite_ = nullptr;
 
 	/// <summary>
 	/// デストラクタ
