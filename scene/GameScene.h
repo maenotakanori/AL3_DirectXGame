@@ -24,11 +24,14 @@ public: // メンバ関数
 	/// デストラクタ
 	/// </summary>
 	~GameScene();
+	player* model_;
+	player* player_;
 
 	/// <summary>
 	/// 初期化
 	/// </summary>
 	void Initialize();
+	player* player_ = nullptr;
 
 	/// <summary>
 	/// 毎フレーム処理
